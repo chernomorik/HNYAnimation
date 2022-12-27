@@ -1,0 +1,16 @@
+M:\работы c#\Animation\bin\Debug\Animation.exe.config
+M:\работы c#\Animation\bin\Debug\Animation.exe
+M:\работы c#\Animation\bin\Debug\Animation.pdb
+M:\работы c#\Animation\obj\Debug\Animation.csproj.AssemblyReference.cache
+M:\работы c#\Animation\obj\Debug\MainWindow.g.cs
+M:\работы c#\Animation\obj\Debug\App.g.cs
+M:\работы c#\Animation\obj\Debug\Animation_MarkupCompile.cache
+M:\работы c#\Animation\obj\Debug\Animation_MarkupCompile.lref
+M:\работы c#\Animation\obj\Debug\MainWindow.baml
+M:\работы c#\Animation\obj\Debug\Animation.g.resources
+M:\работы c#\Animation\obj\Debug\Animation.Properties.Resources.resources
+M:\работы c#\Animation\obj\Debug\Animation.csproj.GenerateResource.cache
+M:\работы c#\Animation\obj\Debug\Animation.csproj.CoreCompileInputs.cache
+M:\работы c#\Animation\obj\Debug\Animation.exe
+M:\работы c#\Animation\obj\Debug\Animation.pdb
+M:\работы c#\Animation\obj\Debug\Animation_Content.g.cs

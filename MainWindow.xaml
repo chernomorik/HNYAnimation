@@ -1,0 +1,35 @@
+﻿<Window x:Class="Animation.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Animation"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="image/HN.jpg"></ImageBrush>
+        </Grid.Background>
+        <StackPanel>            <Label HorizontalAlignment="Center" FontSize="30">HAPPY NEW YEAR                <Label.Effect>                    <DropShadowEffect Color="Blue" ShadowDepth ="5"></DropShadowEffect>                </Label.Effect>            </Label>            <Label HorizontalAlignment="Center" FontSize="30">BUILD A SNOWMAN                <Label.Effect>                    <DropShadowEffect Color="Green" ShadowDepth ="5"></DropShadowEffect>                </Label.Effect>
+            </Label>            <Button Click="Build" Width="100" Height="50" Background="Red">                <Button.Effect>
+                    <DropShadowEffect Color="Red" BlurRadius="30"
+                ShadowDepth="0" Opacity="0.6" />
+                </Button.Effect>                <TextBlock>                Собери                </TextBlock>            </Button>        </StackPanel>
+        <Rectangle x:Name="firstsnow"  Margin="216,206,312,41" RenderTransformOrigin="0.535,0.629">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource ="image/first.png"></ImageBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="secondsnow" Margin="-32,193,468,30" RenderTransformOrigin="1.108,0.277">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource ="image/second.png"></ImageBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="thirdsnow"  Margin="498,10,80,267" RenderTransformOrigin="0.535,0.629">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource ="image/third.png"></ImageBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+    </Grid>
+
+</Window>
